@@ -1,0 +1,56 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.abhaya-libre-regular {
+  font-family: "Abhaya Libre", serif;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+}
+
+
+/* common style */
+header{
+    max-width: 1600px;
+    margin: auto;
+}
+
+.btn-primary{
+    background-color: black;
+    color: white;
+    padding: 20px 38px;
+    font-size: 1.56rem;
+    font-weight: 600;
+    border: none;
+}
+
+/* Customizable style */
+
+ /* navbar styles */
+ .menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+.brand-name{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.menubar{
+    display: flex;
+    gap: 42px;
+}
+
+.menubar li {
+    list-style: none;
+    font-size: 1.37rem;
+    font-weight: 400;
+}
+
+.menubar li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
